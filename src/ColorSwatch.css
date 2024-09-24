@@ -1,0 +1,19 @@
+.swatch {
+    height: 5rem;
+}
+
+.selected {
+    filter: drop-shadow(0 0 20px #ffe600)
+}
+
+.yellow {
+    fill: #fff200;
+}
+
+.green {
+    fill: #61ab00;
+}
+
+.black {
+    fill: #000;
+}
