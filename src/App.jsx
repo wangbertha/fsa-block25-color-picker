@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <SelectedColorDisplay selectedColor={selectedColor} />
-      <ColorList colorList={colors} setSelectedColor={setSelectedColor} />
+      <ColorList colorList={colors} selectedColor={selectedColor} setSelectedColor={setSelectedColor} />
     </>
   )
 }
