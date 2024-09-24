@@ -1,14 +1,16 @@
+import { useState } from 'react'
 import './App.css'
 import ColorList from './ColorList'
 import { colors } from './data/colors'
 import SelectedColorDisplay from './SelectedColorDisplay'
 
 function App() {
+  const [selectedColor, setSelectedColor] = useState(null);
 
   return (
     <>
-      <SelectedColorDisplay selectedColor={"yellow"} />
-      <ColorList colorList={colors}/>
+      <SelectedColorDisplay selectedColor={selectedColor} />
+      <ColorList colorList={colors} setSelectedColor={setSelectedColor} />
     </>
   )
 }

@@ -1,6 +1,6 @@
-const ColorSwatch = ({ color }) => {
+const ColorSwatch = ({ color, setSelectedColor }) => {
   return (
-    <div>{color}</div>
+    <div onClick={() => setSelectedColor(color)}>{color}</div>
   )
 }
 
