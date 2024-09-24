@@ -1,8 +1,9 @@
 import ColorSwatch from "./ColorSwatch"
+import './ColorList.css'
 
 const ColorList = ({ colorList, setSelectedColor }) => {
   return (
-    <div>{colorList.map((color) => (<ColorSwatch key={color} color={color} setSelectedColor={setSelectedColor} />))}</div>
+    <main>{colorList.map((color) => (<ColorSwatch key={color} color={color} setSelectedColor={setSelectedColor} />))}</main>
   )
 }
 

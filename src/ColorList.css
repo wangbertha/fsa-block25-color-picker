@@ -1,0 +1,8 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 6rem);
+    grid-auto-rows: 6rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}

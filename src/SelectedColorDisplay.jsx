@@ -1,6 +1,8 @@
+import './SelectedColorDisplay.css'
+
 const SelectedColorDisplay = ({ selectedColor }) => {
   return (
-    <p>Currently selected: {selectedColor}</p>
+    <p className='selected-color-display'>Currently selected: {selectedColor}</p>
   )
 }
 
